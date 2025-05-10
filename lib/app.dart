@@ -8,6 +8,13 @@ class CounterWithBloc extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+
+      theme: ThemeData(
+        appBarTheme: AppBarTheme(
+          centerTitle: true
+        )
+      ),
+
       home: const HomeScreen()
     );
   }
